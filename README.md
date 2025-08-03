@@ -1,16 +1,63 @@
-I write highly optimized JavaScript and modernize legacy code by leveraging cutting-edge techniques like Web Streams, Transform Streams, Web Workers, Service Workers, WebAssembly (Wasm), alongside advanced Node.js APIs such as worker_threads, AsyncLocalStorage, and AbortController/AbortSignal, to help corporations maximize their infrastructure.
+# @0hmX
 
-I also have a YouTube channel [here](https://www.youtube.com/@TheAnkanOfficial) I like to make tutorials and share random facts about software!
+Software Engineer specializing in systems programming and open source development.
 
-Contribution to deno
-- added support for [async generator](https://github.com/denoland/deno/pull/26703) in setInterval similar nodejs
-- added support for missing feature in deno [pr link](https://github.com/denoland/deno/pull/28811)
-- fixed a bug in inti of the deno [pr link](https://github.com/denoland/deno/pull/28796) which was leading to Error message being ignored
+## Core Work
 
-Contribution to Nodejs
-- Solved a crtical bug related to the "fs" module, where a function was not respecting the [bufferSize](https://github.com/nodejs/node/pull/55896)
+### Node.js
+Currently working on SQLite tagged template implementation and filesystem optimizations. Notable merged work includes:
+- Buffer size handling improvements in filesystem operations
+- Stream backpressure documentation
+- Package.json exports path rules validation
+- Test runner worker implementation optimization
 
-```
-Contact information
-Email 8ankanroy@gmail.com
-```
+### Deno
+Key contributions focusing on runtime compatibility and developer experience:
+- Node.js compatibility layer for async setInterval
+- RGB color output corrections
+- OTLP protocol validation implementation
+- parseArgs() --no- prefix support
+
+## Projects
+
+### Eui
+Video generation pipeline with focus on:
+- CLI interface design
+- Architecture optimization
+- Modular component system
+
+### Figuro
+Image processing toolkit featuring:
+- Processing optimization
+- Upscale algorithms
+- Resize implementation
+
+## Technical Focus
+
+Languages & Runtime
+- Node.js
+- Deno
+- TypeScript
+- Go
+
+Areas of Expertise
+- Systems Programming
+- Performance Optimization
+- Stream Processing
+- File System Operations
+- Database Integration
+- Testing Infrastructure
+- Technical Documentation
+
+## Stats & Activity
+
+Active maintainer with 36+ pull requests across major open source projects including:
+- nodejs/node
+- denoland/deno
+- nodejs/nodejs.org
+- Personal projects (Eui, figuro)
+
+## Contact
+
+GitHub: [@0hmX](https://github.com/0hmX)
+Contributions: [View All PRs](https://github.com/search?q=is%3Apr+author%3A0hmX&sort=updated&order=desc)
